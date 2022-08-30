@@ -1,0 +1,76 @@
+header{
+    background-color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+.header-logo{
+   float: left;
+   margin-top: 5px;
+}
+
+li{
+    color:dodgerblue;
+    list-style-type: none;
+    margin-right: 20px;
+    width: 10px;
+    display: inline;
+}
+
+
+.title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    background-image: url('sample-pattern.png'); 
+}
+
+.content{
+    color: dodgerblue;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.bg-content1{
+    background-image: url('sample-pattern.png');
+}
+
+.bg-content2{
+    background-image: url('sample-pattern.png');
+    padding-bottom: 50px;
+}
+.content2{
+    color: dodgerblue;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    
+}
+
+p{
+    color: black;
+    font-size: small;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: medium;
+
+}
+
