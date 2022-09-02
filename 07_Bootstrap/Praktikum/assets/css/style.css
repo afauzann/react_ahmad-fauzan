@@ -31,8 +31,8 @@ span{
 }
 /* Content-2 */
 .content-2{
-    margin-top: 50px;
-    
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 .estartup{
     font-weight: lighter;
@@ -55,6 +55,10 @@ span{
 }
 
 /* Content 4*/
+
+.content-4{
+    padding: 30px;
+}
 
 
 
