@@ -29,6 +29,7 @@ span{
     margin-top: 100px !important;
     font-size: smaller;
 }
+/* Content-2 */
 .content-2{
     margin-top: 50px;
     
@@ -41,6 +42,19 @@ span{
 .card{
     border:0;
 }
+/* Content 3 */
+.content-3{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.content-footer{
+    margin-top: 30px;
+    font-size: small;
+    font-weight: 100px;
+}
+
+/* Content 4*/
 
 
 
