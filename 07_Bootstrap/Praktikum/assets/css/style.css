@@ -27,7 +27,21 @@ span{
 }
 .content-column{
     margin-top: 100px !important;
+    font-size: smaller;
 }
+.content-2{
+    margin-top: 50px;
+    
+}
+.estartup{
+    font-weight: lighter;
+    font-size: 900;}
+
+    
+.card{
+    border:0;
+}
+
 
 
 
