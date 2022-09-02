@@ -1,0 +1,33 @@
+a {
+    color: black !important;
+}
+.nav-item{
+    font-size: small;
+    margin-right: 5px;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+.navbar{
+    background-color: white !important;
+    border-bottom: 3px solid rgb(212, 209, 209);
+}
+span{
+    color: limegreen;
+}
+.text-simple{
+    margin-top: 100px !important;
+    font-weight: lighter;
+    font-size: 900;
+    
+}
+.text-integer{
+    font-weight:lighter;
+    font-size: smaller;
+}
+.content-column{
+    margin-top: 100px !important;
+}
+
+
+
