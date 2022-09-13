@@ -1,7 +1,7 @@
 import "./asset/css/main.css";
 import "./asset/css/bootstrap.min.css";
-import profile from "./asset/img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
-import logo from "./asset/img/logo-ALTA@2x.png"
+import Profile from "./asset/img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
+import Logo from "./asset/img/logo-ALTA@2x.png"
 
 function Home() {
     return (
@@ -18,7 +18,7 @@ function Home() {
             <div className="row align-items-center">
               <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                 <div className="alterra">
-                  <a href="home.html"><img className="logo-atas" src={logo} alt="logo" /></a>
+                  <a href="home.html"><img className="logo-atas" src={Logo} alt="logo" /></a>
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12 col-12">
@@ -37,7 +37,7 @@ function Home() {
         <div className="container h-100">
           <div className="row align-items-center isi-home">
             <div className="col-lg-4 col-md-12 col-sm-12  col-12">
-              <img id="foto-profil" src={profile} alt="profile" />
+              <img id="foto-profil" src={Profile} alt="profile" />
             </div>
             <div className="col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="main-p">
