@@ -1,6 +1,6 @@
 import "./asset/css/main.css";
 import "./asset/css/bootstrap.min.css";
-import Profile from "./asset/img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
+import PhotoProfile from "./asset/img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg"
 import Logo from "./asset/img/logo-ALTA@2x.png"
 
 function Home() {
@@ -37,7 +37,7 @@ function Home() {
         <div className="container h-100">
           <div className="row align-items-center isi-home">
             <div className="col-lg-4 col-md-12 col-sm-12  col-12">
-              <img id="foto-profil" src={Profile} alt="profile" />
+              <img id="foto-profil" src={PhotoProfile} alt="profil" />
             </div>
             <div className="col-lg-8 col-md-12 col-sm-12 col-12">
               <div className="main-p">
