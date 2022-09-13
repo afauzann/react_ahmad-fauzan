@@ -5,10 +5,10 @@ class Kendaraan {
 
 class Mobil extends Kendaraan {
     berjalan() {
-    this.TambahKecepatan(10);
+    this.tambahKecepatan(10);
     }
 
-    TambahKecepatan(kecepatanBaru) {
+    tambahKecepatan(kecepatanBaru) {
     this.kecepatanPerjam = this.kecepatanPerjam + kecepatanBaru;
     }
 }
