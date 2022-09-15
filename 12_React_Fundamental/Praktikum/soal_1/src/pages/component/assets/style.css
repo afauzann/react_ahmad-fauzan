@@ -1,0 +1,19 @@
+.title{
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.18);
+    padding: 20px ;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+ul{
+    list-style: none;
+}
+li{
+    box-sizing: content-box;  
+    padding: 10px 10px;  
+    border: 2px solid ;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    width:fit-content;
+}
+
