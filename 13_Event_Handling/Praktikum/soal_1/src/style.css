@@ -1,0 +1,54 @@
+.title{
+    background-image: linear-gradient(to left, green, yellow);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 300%;
+}
+.input-border{
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: content-box;
+    width: 500px;
+    border: none;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: -2px 0px 5px 2px rgba(0,0,0,0.18);
+}
+input[type=text] {
+   border: none;
+   width: 430px;
+   text-align: left;
+   outline: none;
+  }
+input::placeholder{
+    font-weight: 600;
+    color: black;
+    opacity: .7;
+}
+input[type=submit] {
+    border: none;
+    float: right;
+    margin-top: 5px;
+    background-color: white;
+  }
+.list-item{
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    box-sizing: content-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+    font-size: medium;
+}
+input[type=checkbox]{
+    margin-right: 10px;
+    accent-color: blue;
+}
+input[type=reset]{
+    float: right;
+    text-align:center;
+    background-color: white;
+}
