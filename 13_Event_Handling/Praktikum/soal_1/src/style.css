@@ -33,9 +33,9 @@ input[type=submit] {
     background-color: white;
   }
 .list-item{
-    text-align: left;
     width: 500px;
-    padding: 20px;
+    height: 50px;
+    padding-top: 20px;
     margin: auto;
     box-sizing: content-box;
     border: none;
@@ -48,7 +48,9 @@ input[type=checkbox]{
     accent-color: blue;
 }
 input[type=reset]{
+    background-color: rgba(216, 216, 216, 0.758);
+    border: none;
+    border-radius: 50%;
+    padding: 15px 5px;
     float: right;
-    text-align:center;
-    background-color: white;
 }

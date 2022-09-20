@@ -10,16 +10,22 @@ const ListItem = ({item, hapusListTodo}) => {
 
     return(
         <div className="list-item">
-            <div style={{ textDecoration: isCompleted && "line-through", fontStyle: isCompleted && "italic", opacity: isCompleted && ".6"}}>
+            <div>
                 <input 
-                checked={isCompleted && 'checked'}
-                value={item} 
-                type="checkbox" 
-                onChange={completeHandler}
+                    checked={isCompleted && 'checked'}
+                    value={item} 
+                    type="checkbox" 
+                    onChange={completeHandler}
                 />
-                {item.title} 
-                <input type="reset" value="Delete" onClick={() => {hapusListTodo(item.id)}}/> 
-            </div> 
+                <span
+                    style={{ textDecoration: isCompleted && "line-through", fontStyle: isCompleted && "italic", opacity: isCompleted && ".3"}}
+                >
+                    {item.title}
+                </span>
+                <input 
+                    type="reset" value="Delete" onClick={() => {hapusListTodo(item.id)}}
+                />
+            </div>   
         </div>
     )
 }  
