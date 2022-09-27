@@ -12,10 +12,14 @@ function Form() {
     fotoSurat: ""
   }
 
+  const initialErrorMsgs = {
+    nama: "",
+    email: "",
+    noHandphone: ""
+  }
+
   const [data, setData] = useState(baseData);
-  const [nameError, setNameError] = useState("")
-  const [emailError, setEmailError] = useState("")
-  const [phoneError, setPhoneError] = useState("")
+  const [errorMsgs, setErrorMsgs] = useState(initialErrorMsgs);
   const regexName = /^[A-Za-z ]*$/;
   const regexEmail =  /^\w+([\].-]?\w+)*@\w+([\].-]?\w+)*(\.\w{2,3})+$/;
   const regexPhone = /^[\d-]{9,14}$/;
@@ -32,34 +36,44 @@ function Form() {
     
     if (name === "nama") {
     if (regexName.test(value)) {
-      setNameError("")
+      setErrorMsgs({
+        ...errorMsgs,
+        nama: ""})
     } else {
-      setNameError("Nama Lengkap Harus Berupa Huruf")
+      setErrorMsgs({
+        ...errorMsgs,
+        nama: "Nama Lengkap Harus Berupa Huruf"})
     }
   }
   if (name === "email") {
     if (regexEmail.test(value)) {
-      setEmailError("")
+      setErrorMsgs({
+        ...errorMsgs,
+        email: ""})
     } else {
-      setEmailError("Email Tidak Sesuai")
+      setErrorMsgs({
+        ...errorMsgs,
+        email: "Email Tidak Sesuai"})
     }
   }
   if (name === "noHandphone") {
     if (regexPhone.test(value)) {
-      setPhoneError("")
+      setErrorMsgs({
+        ...errorMsgs,
+        noHandphone: ""})
     } else {
-      setPhoneError("No Handphone Tidak Sesuai")
+      setErrorMsgs({
+        ...errorMsgs,
+        noHandphone: "Nomor Handphone Tidak Sesuai"})
     }
   }
 }
 
   const handleSubmit = (e) => {
-    if (nameError !== "" ) {
-      alert("Data Pendaftar Tidak Sesuai")
-    } else if (phoneError !== "" ) {
-      alert("Data Pendaftar Tidak Sesuai")
-    } else {
+    if (!errorMsgs.nama && !errorMsgs.email && !errorMsgs.noHandphone) {
       alert(`Data Pendaftar "${data.nama}" Berhasil Diterima`)
+    } else {
+      alert("Data Pendaftar Tidak Sesuai")
     }
     resetData()
     e.preventDefault()
@@ -67,9 +81,7 @@ function Form() {
 
   const resetData = () => {
     setData(baseData);
-    setNameError("");
-    setEmailError("");
-    setPhoneError("");
+    setErrorMsgs(initialErrorMsgs);
     fotoSurat.current.value = "";
   }
 
@@ -163,9 +175,9 @@ function Form() {
           <textarea className="textarea" name="harapan" value={data.harapan} onChange={handleInput}/>
         </label>
         <span className="error-message">
-          <li>{nameError}</li>
-          <li>{emailError}</li>
-          <li>{phoneError}</li>
+          <li>{errorMsgs.nama}</li>
+          <li>{errorMsgs.email}</li>
+          <li>{errorMsgs.noHandphone}</li>
         </span>
         <input type="submit" className="submit"/>
         <button onClick={resetData} className="reset">Reset</button>
