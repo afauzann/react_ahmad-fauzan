@@ -1,0 +1,19 @@
+.notfound{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.link {
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: content-box;
+    width: 300px;
+    border: none;
+    margin: auto;
+    margin-top: 50px;
+    background-color:darkcyan;
+}
+.title-404{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
