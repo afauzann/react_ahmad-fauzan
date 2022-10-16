@@ -1,0 +1,17 @@
+{
+    "objects": [
+      {
+        "id_anggota": "3",
+        "Pelajaran": "Sistem Informasi",
+        "Nilai": 90,
+        "Status": true
+      },
+      {
+        "id_anggota": "3",
+        "Pelajaran": "React",
+        "Nilai": 55,
+        "Status": false
+      }
+    ]
+  }
+

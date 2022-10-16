@@ -1,0 +1,52 @@
+{
+    "data": {
+      "update_kampus_merdeka_keterangan_many": [
+        {
+          "returning": [
+            {
+              "id_anggota": 1,
+              "id": 1,
+              "Status": true,
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 85
+            },
+            {
+              "id_anggota": 1,
+              "id": 2,
+              "Status": true,
+              "Pelajaran": "React",
+              "Nilai": 65
+            },
+            {
+              "id_anggota": 2,
+              "id": 3,
+              "Status": true,
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 90
+            },
+            {
+              "id_anggota": 2,
+              "id": 4,
+              "Status": true,
+              "Pelajaran": "React",
+              "Nilai": 50
+            },
+            {
+              "id_anggota": 3,
+              "id": 5,
+              "Status": true,
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 90
+            },
+            {
+              "id_anggota": 3,
+              "id": 6,
+              "Status": true,
+              "Pelajaran": "React",
+              "Nilai": 55
+            }
+          ]
+        }
+      ]
+    }
+  }
