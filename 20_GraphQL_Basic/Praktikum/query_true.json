@@ -1,0 +1,21 @@
+{
+    "data": {
+      "kampus_merdeka_keterangan": [
+        {
+          "id": 1,
+          "id_anggota": 1,
+          "Pelajaran": "Sistem Informasi",
+          "Status": true,
+          "Nilai": 85
+        },
+        {
+          "id": 3,
+          "id_anggota": 2,
+          "Pelajaran": "Sistem Informasi",
+          "Status": true,
+          "Nilai": 90
+        }
+      ]
+    }
+  }
+  
