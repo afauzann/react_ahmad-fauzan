@@ -1,0 +1,9 @@
+query MyQuery {
+  kampus_merdeka_user {
+    id
+    pelajaran {
+      Pelajaran
+      Nilai
+    }
+  }
+}

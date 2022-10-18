@@ -1,0 +1,45 @@
+{
+    "data": {
+      "kampus_merdeka_user": [
+        {
+          "id": 1,
+          "pelajaran": [
+            {
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 85
+            },
+            {
+              "Pelajaran": "React",
+              "Nilai": 65
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "pelajaran": [
+            {
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 90
+            },
+            {
+              "Pelajaran": "React",
+              "Nilai": 50
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "pelajaran": [
+            {
+              "Pelajaran": "Sistem Informasi",
+              "Nilai": 90
+            },
+            {
+              "Pelajaran": "React",
+              "Nilai": 55
+            }
+          ]
+        }
+      ]
+    }
+  }
