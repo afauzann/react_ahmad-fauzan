@@ -1,0 +1,8 @@
+query MyQuery {
+  kampus_merdeka_keterangan {
+    id_anggota
+    Nama {
+      nama
+    }
+  }
+}
